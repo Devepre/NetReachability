@@ -13,6 +13,7 @@
 		47B048D1211D974E00ED1A5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B048D0211D974E00ED1A5C /* Assets.xcassets */; };
 		47B048D4211D974E00ED1A5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B048D2211D974E00ED1A5C /* LaunchScreen.storyboard */; };
 		47B048D7211D974F00ED1A5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B048D6211D974F00ED1A5C /* main.m */; };
+		47B048DF211D977200ED1A5C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B048DE211D977200ED1A5C /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		47B048D3211D974E00ED1A5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47B048D5211D974F00ED1A5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47B048D6211D974F00ED1A5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47B048DD211D977200ED1A5C /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		47B048DE211D977200ED1A5C /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				47B048D2211D974E00ED1A5C /* LaunchScreen.storyboard */,
 				47B048D5211D974F00ED1A5C /* Info.plist */,
 				47B048D6211D974F00ED1A5C /* main.m */,
+				47B048DD211D977200ED1A5C /* Reachability.h */,
+				47B048DE211D977200ED1A5C /* Reachability.m */,
 			);
 			path = NetReachability;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			files = (
 				47B048CC211D974D00ED1A5C /* ViewController.m in Sources */,
 				47B048D7211D974F00ED1A5C /* main.m in Sources */,
+				47B048DF211D977200ED1A5C /* Reachability.m in Sources */,
 				47B048C9211D974D00ED1A5C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +292,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G42Q9LTDRN;
 				INFOPLIST_FILE = NetReachability/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +310,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G42Q9LTDRN;
 				INFOPLIST_FILE = NetReachability/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
